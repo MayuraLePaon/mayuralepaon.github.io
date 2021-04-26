@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'P5Font'; 
+	src: url(src/Helvetica.ttf); 
+}
+
+Body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, #484CAC 0%, #41268b 100%);
+}
+
+h1{
+    text-align: center;
+    font-family: 'P5Font'; 
+  font-size: 70px;
+  font-family: 'P5Font';
+  margin: 3%;
+  color:rgb(107, 43, 226);
+  text-align: center;
+  text-shadow: 2px 0 2px rgb(187, 186, 255), 
+0 2px 2px rgb(187, 186, 255), 
+-2px 0 2px rgb(187, 186, 255), 
+0 -2px 2px rgb(187, 186, 255);
+}
+
+h3 {
+    color:#dbe5ff;
+    margin-left: -3%;
+}
+
+main {
+    min-height: calc(100vh - 270px);
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.centered{
+    text-align: center;
+}
+
+.Footer{
+    text-align: right;
+    border: 4px solid #241f68;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(src/back_circle.svg), linear-gradient(90deg, #3a2099 0%, #34157a 100%);
+    background-repeat: space;
+    background-attachment: fixed;
+    color:#dbddff;
+}
+ .navi{
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid  #241f68;
+    background-image: url(src/back_circle.svg), linear-gradient(90deg, #3a2099 0%, #34157a 100%);
+    background-repeat: space;
+    background-attachment: fixed;
+ }
+
+ .navi li{
+     display: inline;
+     margin: 10px;
+ }
+
+ .merch-section{
+     margin-left: 5%;
+ }
+
+ h4{
+     margin: 5px;
+ }
+
+ dd{
+     margin: 10px;
+ }
+ 
+ h2 {
+    color:#dbe5ff;
+ }
+
+ p{
+     color:white;
+ }
+
+ input{
+    border: 5px solid  #26126d;
+    background: linear-gradient(180deg, #8f70ff 0%, #4937f0 100%);
+    color: rgb(243, 233, 255);
+    font-family: 'P5Font';
+    border-radius: 7px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+ }
+
+ textarea{
+    border: 3px solid  #26126d;
+    background: radial-gradient(50% 50% at 50% 50%,  #c0aeff 0%, #7d73d6 100%);
+    color: rgb(243, 233, 255);
+    font-family: 'P5Font';
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+ }
+
+ .textfield{
+    border: 3px solid  #26126d;
+    background: radial-gradient(50% 50% at 50% 50%,  #c0aeff 0%, #7d73d6 100%);
+    color: rgb(243, 233, 255);
+    font-family: 'P5Font';
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+ }
+
+.price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.nav-header{
+    margin-left: 20px;
+}
+nav{
+    list-style-type: "❖ ";
+    color: hsl(261, 100%, 94%);
+}
+
+li{
+    color: white;
+}
+
+.Ph-text{
+    color:red;
+}
+
+.Mayura-text{
+    color:rgb(0, 174, 255);
+}
+
+.Hg-text{
+    color: rgb(6, 255, 6);
+}
+
+.Item-Pic{
+    border: 3px solid #8e72e9;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+a{
+    color: #b2adff;
+    text-decoration: none;
+}
+
+.Shop-item-name{
+    font-size: 19px;
+    background-image: linear-gradient(90deg, #3a2099 0%, #34157a 100%);
+    
+}
+
+.description{
+    color: #b9beff;
+    font-style: italic; 
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.materials{
+    list-style-image: url(Images/Peacock-logo.png) ;
+}
+
+.full-description{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
