@@ -43,7 +43,6 @@ main {
     padding: 10px;
     margin: 10px;
     background-image: url(src/back_circle.svg), linear-gradient(90deg, #3a2099 0%, #34157a 100%);
-    background-repeat: space;
     background-attachment: fixed;
     color:#dbddff;
 }
@@ -52,7 +51,6 @@ main {
     padding: 5px;
     border: 5px solid  #241f68;
     background-image: url(src/back_circle.svg), linear-gradient(90deg, #3a2099 0%, #34157a 100%);
-    background-repeat: space;
     background-attachment: fixed;
  }
 
@@ -171,4 +169,8 @@ a{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.playlist{
+    border-radius: 70px;
 }
