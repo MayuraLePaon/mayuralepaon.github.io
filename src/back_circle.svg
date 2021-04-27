@@ -1,6 +1,10 @@
-<svg width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
  <g>
-  <ellipse ry="5" rx="5" id="svg_1" cy="5" cx="5" stroke-width="0" fill="rgba(99,42,255,0.144)"/>
+  <ellipse ry="6" rx="6" id="svg_1" cy="8" cx="8" stroke-width="0" fill="rgba(99,42,255,0.075)"/>
+  <ellipse ry="6" rx="6" id="svg_1" cy="8" cx="24" stroke-width="0" fill="rgba(99,42,255,0.075)"/>
+  <ellipse ry="6" rx="6" id="svg_1" cy="24" cx="0" stroke-width="0" fill="rgba(99,42,255,0.075)"/>
+  <ellipse ry="6" rx="6" id="svg_1" cy="24" cx="16" stroke-width="0" fill="rgba(99,42,255,0.075)"/>
+  <ellipse ry="6" rx="6" id="svg_1" cy="24" cx="32" stroke-width="0" fill="rgba(99,42,255,0.075)"/>
  </g>
 </svg>
