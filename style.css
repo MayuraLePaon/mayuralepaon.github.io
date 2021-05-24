@@ -8,18 +8,24 @@ Body{
     background: linear-gradient(180deg, #484CAC 0%, #41268b 100%);
 }
 
-h1{
-    text-align: center;
-    font-family: 'P5Font'; 
+h1{ 
   font-size: 70px;
   font-family: 'P5Font';
   margin: 3%;
-  color:rgb(107, 43, 226);
+  font-weight: 400;
+  text-transform: uppercase;
   text-align: center;
-  text-shadow: 2px 0 2px rgb(187, 186, 255), 
-0 2px 2px rgb(187, 186, 255), 
--2px 0 2px rgb(187, 186, 255), 
-0 -2px 2px rgb(187, 186, 255);
+  padding-top: 30px;
+  color: rgb(255, 255, 255);
+  text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px rgb(119, 0, 255),
+      0 0 40px rgb(119, 0, 255),
+      0 0 80px rgb(119, 0, 255),
+      0 0 90px rgb(119, 0, 255),
+      0 0 100px rgb(119, 0, 255),
+      0 0 150px rgb(119, 0, 255);
 }
 
 h3 {
@@ -28,7 +34,7 @@ h3 {
 }
 
 main {
-    min-height: calc(100vh - 325px);
+    min-height: calc(100vh - 225px);
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -59,6 +65,11 @@ main {
      margin: 10px;
  }
 
+ .shop-item li{
+    display: inline;
+    margin: 10px;
+}
+
  .merch-section{
      margin-left: 5%;
  }
@@ -67,9 +78,15 @@ main {
      margin: 5px;
  }
 
- dd{
+ dt{
      margin: 10px;
  }
+
+ dl {
+    list-style-type: "";
+    display: inline;
+
+}
  
  h2 {
     color:#dbe5ff;
@@ -126,14 +143,17 @@ li{
 
 .Ph-text{
     color:rgb(243, 86, 86);
+    text-decoration: none;
 }
 
 .Mayura-text{
     color:rgb(0, 174, 255);
+    text-decoration: none;
 }
 
 .Hg-text{
     color: rgb(6, 255, 6);
+    text-decoration: none;
 }
 
 .Item-Pic{
@@ -143,6 +163,11 @@ li{
 }
 
 a{
+    color: #b2adff;
+    text-decoration: none;
+}
+
+.link{
     color: #b2adff;
     text-decoration: none;
 }
@@ -174,22 +199,3 @@ a{
 .playlist{
     border-radius: 70px;
 }
-
-.neon {
-    color: #fff;
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 40px rgb(119, 0, 255),
-      0 0 80px rgb(119, 0, 255),
-      0 0 90px rgb(119, 0, 255),
-      0 0 100px rgb(119, 0, 255),
-      0 0 150px rgb(119, 0, 255);
-  }
-
-  h1 {
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-  }

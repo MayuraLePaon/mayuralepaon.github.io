@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/peacock-logo.png" type="image/x-icon">
+    <!-- Bootstrap CSS (jsDelivr CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!-- Bootstrap Bundle JS (jsDelivr CDN) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <title>Каталог</title>
 </head>
 <body>
     <header>
         <h1 class="neon">Каталог</h1>
         <nav class='navi'> Навигация:
-            <li><a href="Index.html">На главную</a></li>
-            <li><a href="Catalog.html">Каталог</a></li>
-            <li><a href="ContactUs.html">Контакты</a></li>
+            <li><a class = 'link' href="Index.html">На главную</a></li>
+            <li><a class = 'link' href="Catalog.html">Каталог</a></li>
+            <li><a class = 'link' href="ContactUs.html">Контакты</a></li>
         </nav>
     </header>
     <main>
@@ -22,49 +26,49 @@
             Каталог товаров
         </h2>
         <nav>
-            <li><a href="#merch">Мерч персонажей</a></li>
-            <li><a href="#masks">Крутые маски</a></li>
-            <li><a href="#other">Другое</a></li>
+            <li><a class = 'link' href="#merch">Мерч персонажей</a></li>
+            <li><a class = 'link' href="#masks">Крутые маски</a></li>
+            <li><a class = 'link' href="#other">Другое</a></li>
         </nav>
         <section class="merch-section">
         <h3 id='merch'>❖ Мерч персонажей</h3>
-        <dl>
-            <dt>
+        <dl class='shop-item'>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Peacock-miraculous.html" target="_blank"><img class="Item-Pic" alt="Брошь" src="Images/Peacock-miraculous.png" width="10%"/></a> 
-            </dt>
-            <dt>
+            </li>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Peacock-fan.html" target="_blank"><img class="Item-Pic" alt="Веер" src="Images/Peacock-fan.png" width="10%"/></a> 
-            </dt>
+            </li>
         </dl>
         <h3 id='masks'>❖ Крутые маски</h3>
-        <dl>
-            <dt>
+        <dl class='shop-item'>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Joker-Mask.html" target="_blank"><img class="Item-Pic" alt="Маска" src="Images/Joker-mask.png" width="10%"/></a>
-            </dt> 
-            <dt>
+            </li> 
+            <li>
                 <a class="shop-lot" href="Shop-Items/Skull-Mask.html" target="_blank"><img class="Item-Pic" alt="Маска" src="Images/Skull-mask.png" width="10%"/></a>
-            </dt>
-            <dt>
+            </li>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Panther-Mask.html" target="_blank"><img class="Item-Pic" alt="Маска" src="Images/Panther-mask.png" width="10%"/></a>
-            </dt>
-            <dt>
+            </li>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Fox-Mask.html" target="_blank"><img class="Item-Pic shop-lot" alt="Маска" src="Images/Fox-mask.png" width="10%"/></a>
-            </dt>
-            <dt>
+            </li>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Queen-Mask.html" target="_blank"><img class="Item-Pic shop-lot" alt="Маска" src="Images/Queen-mask.png" width="10%"/></a>
-            </dt>
-            <dt>
+            </li>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Crow-Mask.html" target="_blank"><img class="Item-Pic shop-lot" alt="Маска" src="Images/Crow-mask.png" width="10%"/></a>
-            </dt>
+            </li>
         </dl>
         <h3 id='other'>❖ Другое</h3>
-        <dl>
-            <dt>
+        <dl class='shop-item'>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Calling-card.html" target="_blank"><img class="Item-Pic shop-lot" alt="Визитка" src="Images/Calling-card.png" width="10%"/></a>
-            </dt>
-            <dt>
+            </li>
+            <li>
                 <a class="shop-lot" href="Shop-Items/Hogwarts-letter.html" target="_blank"><img class="Item-Pic shop-lot" alt="Визитка" src="Images/Hogwarts-letter.png" width="10%"/></a>
-            </dt>
+            </li>
         </dl>
         </section>
 
